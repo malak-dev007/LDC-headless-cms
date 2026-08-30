@@ -28,9 +28,7 @@ function App() {
   const [pages, setPages] = useState<Page[]>([]);
 
   useEffect(() => {
-  axios.get(
-  "http://localhost:1337/api/pages?populate[Content][populate]=*"
-)
+  axios.get(`${import.meta.env.VITE_API_URL}/api/pages?populate=*`)
 .then((response) => {
   console.log("FULL RESPONSE:", response.data.data);
 
