@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_headers",
+  "info": {
+    "displayName": "Header"
+  },
+  "options": {},
+  "attributes": {
+    "Home": {
+      "type": "string"
+    },
+    "Company": {
+      "type": "string"
+    },
+    "Partners": {
+      "type": "string"
+    },
+    "CaseStudies": {
+      "type": "string"
+    },
+    "Resources": {
+      "type": "string"
+    },
+    "SMBsServices": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

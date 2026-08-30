@@ -10,6 +10,31 @@
     },
     "discription": {
       "type": "text"
+    },
+    "background": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "primaryButtonText": {
+      "type": "string"
+    },
+    "learnMoreLink": {
+      "type": "string"
+    },
+    "contactUsLinK": {
+      "type": "string"
+    },
+    "contactUsButton": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
     }
   },
   "config": {}

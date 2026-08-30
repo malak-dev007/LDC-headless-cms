@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_shared_plugs",
+  "info": {
+    "displayName": "Plug"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "explore": {
+      "type": "string"
+    },
+    "collectedLogos": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

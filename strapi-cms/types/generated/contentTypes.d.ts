@@ -493,7 +493,13 @@ export interface ApiAboutAbout extends Struct.SingleTypeSchema {
   };
   attributes: {
     blocks: Schema.Attribute.DynamicZone<
-      ['shared.media', 'shared.quote', 'shared.rich-text', 'shared.slider']
+      [
+        'shared.media',
+        'shared.quote',
+        'shared.rich-text',
+        'shared.slider',
+        'shared.faq',
+      ]
     >;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
@@ -656,7 +662,22 @@ export interface ApiPagePage extends Struct.CollectionTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
-    Content: Schema.Attribute.DynamicZone<['shared.rich-text', 'shared.hero']>;
+    Content: Schema.Attribute.DynamicZone<
+      [
+        'shared.rich-text',
+        'shared.hero',
+        'shared.partners',
+        'shared.puplic-cloud',
+        'shared.specialists-hold',
+        'shared.benefits',
+        'shared.plug',
+        'shared.contact',
+        'shared.faq',
+        'shared.everything-app',
+        'shared.social-links',
+        'shared.footer-column',
+      ]
+    >;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;

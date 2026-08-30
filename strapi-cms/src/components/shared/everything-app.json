@@ -1,0 +1,65 @@
+{
+  "collectionName": "components_shared_everything_apps",
+  "info": {
+    "displayName": "EverythingApp"
+  },
+  "options": {},
+  "attributes": {
+    "icon2": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "weekly": {
+      "type": "string"
+    },
+    "uptime": {
+      "type": "string"
+    },
+    "support": {
+      "type": "string"
+    },
+    "secure": {
+      "type": "string"
+    },
+    "icon1": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "icon3": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "icon4": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

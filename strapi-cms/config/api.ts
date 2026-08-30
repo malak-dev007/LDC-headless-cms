@@ -7,6 +7,7 @@ const config: Core.Config.Api = {
     withCount: true,
     strictParams: true,
   },
+
   documents: {
     strictParams: true,
     strictRelations: true,

@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_shared_footer_columns",
+  "info": {
+    "displayName": "Footer-column"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "connectTitle": {
+      "type": "string"
+    },
+    "newsletterText": {
+      "type": "string"
+    },
+    "newsletterButton": {
+      "type": "string"
+    },
+    "badges": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "social": {
+      "type": "component",
+      "component": "shared.social-links",
+      "repeatable": true
+    },
+    "columns": {
+      "type": "component",
+      "component": "shared.footer",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

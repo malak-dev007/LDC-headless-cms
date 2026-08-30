@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_shared_puplic_clouds",
+  "info": {
+    "displayName": "PublicCloud"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "Content1": {
+      "type": "string"
+    },
+    "Image1": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Content2": {
+      "type": "string"
+    },
+    "Image2": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_shared_contacts",
+  "info": {
+    "displayName": "Contact"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "jobtitle": {
+      "type": "string"
+    },
+    "phoneNo": {
+      "type": "string"
+    },
+    "privacyText": {
+      "type": "string"
+    },
+    "privacyLink": {
+      "type": "string"
+    },
+    "submitText": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

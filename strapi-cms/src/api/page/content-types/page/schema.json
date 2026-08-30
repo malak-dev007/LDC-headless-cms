@@ -15,7 +15,17 @@
       "type": "dynamiczone",
       "components": [
         "shared.rich-text",
-        "shared.hero"
+        "shared.hero",
+        "shared.partners",
+        "shared.puplic-cloud",
+        "shared.specialists-hold",
+        "shared.benefits",
+        "shared.plug",
+        "shared.contact",
+        "shared.faq",
+        "shared.everything-app",
+        "shared.social-links",
+        "shared.footer-column"
       ]
     },
     "title": {
