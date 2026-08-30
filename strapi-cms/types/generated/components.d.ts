@@ -54,7 +54,7 @@ export interface SharedEverythingApp extends Struct.ComponentSchema {
     displayName: 'EverythingApp';
   };
   attributes: {
-        icon1: Schema.Attribute.Media<MediaType, true>;
+    icon1: Schema.Attribute.Media<MediaType, true>;
 
     icon2: Schema.Attribute.Media<MediaType>;
     icon3: Schema.Attribute.Media<MediaType>;
