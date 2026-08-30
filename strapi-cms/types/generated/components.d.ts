@@ -1,17 +1,17 @@
 import type { Schema, Struct } from '@strapi/strapi';
-
+export type MediaType = 'images' | 'files' | 'videos' | 'audios';
 export interface SharedBenefits extends Struct.ComponentSchema {
   collectionName: 'components_shared_benefits';
   info: {
     displayName: 'Benefits';
   };
   attributes: {
-    icon1: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
-    icon2: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
-    icon3: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
-    icon4: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
-    icon5: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
-    icon6: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    icon1: Schema.Attribute.Media<MediaType>;
+    icon2: Schema.Attribute.Media<MediaType>;
+    icon3: Schema.Attribute.Media<MediaType>;
+    icon4: Schema.Attribute.Media<MediaType>;
+    icon5: Schema.Attribute.Media<MediaType>;
+    icon6: Schema.Attribute.Media<MediaType>;
     text1: Schema.Attribute.Text;
     text2: Schema.Attribute.Text;
     text3: Schema.Attribute.Text;
@@ -54,13 +54,11 @@ export interface SharedEverythingApp extends Struct.ComponentSchema {
     displayName: 'EverythingApp';
   };
   attributes: {
-    icon1: Schema.Attribute.Media<
-      'images' | 'files' | 'videos' | 'audios',
-      true
-    >;
-    icon2: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
-    icon3: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
-    icon4: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+        icon1: Schema.Attribute.Media<MediaType, true>;
+
+    icon2: Schema.Attribute.Media<MediaType>;
+    icon3: Schema.Attribute.Media<MediaType>;
+    icon4: Schema.Attribute.Media<MediaType>;
     secure: Schema.Attribute.String;
     support: Schema.Attribute.String;
     title: Schema.Attribute.String;
@@ -310,11 +308,11 @@ export interface SharedSpecialistsHold extends Struct.ComponentSchema {
     content4: Schema.Attribute.Text;
     content5: Schema.Attribute.Text;
     description: Schema.Attribute.String;
-    icon1: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
-    icon2: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
-    icon3: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
-    icon4: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
-    icon5: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    icon1: Schema.Attribute.Media<MediaType>;
+    icon2: Schema.Attribute.Media<MediaType>;
+    icon3: Schema.Attribute.Media<MediaType>;
+    icon4: Schema.Attribute.Media<MediaType>;
+    icon5: Schema.Attribute.Media<MediaType>;
     title: Schema.Attribute.String;
     title1: Schema.Attribute.String;
     title2: Schema.Attribute.String;
