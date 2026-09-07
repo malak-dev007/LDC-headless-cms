@@ -28,7 +28,6 @@ function App() {
   const [pages, setPages] = useState<Page[]>([]);
 
   useEffect(() => {
-    console.log("adely");
     axios
       .get(`${import.meta.env.VITE_API_URL}/api/pages?populate=*`)
       .then((response) => {
